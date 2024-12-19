@@ -1,0 +1,84 @@
+/* Reset/Normalize */
+/* Add any reset or normalize CSS here */
+
+/* CSS Custom Properties (variables) */
+/* Add any CSS variables here */
+
+/* Base styles */
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #0d1117;
+    color: #c9d1d9;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+/* Layout/Grid */
+#controls {
+    padding: 20px;
+}
+
+#grid {
+    display: grid;
+    background: #0d1117;
+    border: 1px solid #30363d;
+    border-radius: 6px;
+    padding: 8px;
+}
+
+/* Components */
+.cell {
+    width: 10px;
+    height: 10px;
+    border-radius: 2px;
+    margin: 1px;
+    background: #161b22;
+    transition: background-color 0.2s ease;
+}
+
+.cell.level-1 {
+    background: #9be9a8;
+}
+
+.cell.level-2 {
+    background: #40c463;
+}
+
+.cell.level-3 {
+    background: #30a14e;
+}
+
+.cell.level-4 {
+    background: #216e39;
+}
+
+button {
+    margin: 5px;
+    padding: 5px 12px;
+    border: 1px solid #30363d;
+    border-radius: 6px;
+    background: #21262d;
+    color: #c9d1d9;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.2s ease;
+}
+
+button:hover {
+    background: #30363d;
+    border-color: #8b949e;
+}
+
+/* Utilities */
+/* Add any utility classes here */
+
+/* Media queries */
+/* Add any media queries here */
+
+/* Print styles */
+/* Add any print styles here */
